@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
        <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
        </nav>
     </header>
         
-        <section class="hero">
-        <img src="WIN_20260623_10_33_48_Pro.jpg" alt="Profile Picture">
+    <section class="hero" id="home">
+        
+        <div class="profile-picture">
+          <div class="profile-ring"></div>
+
+          <img src="WIN_20260623_10_33_48_Pro.jpg"
+             alt="Ansh Dhama">
+        </div>
        
         <h1>Ansh Dhama</h1>
         
@@ -27,6 +36,11 @@
           Python Developer |
           Full-Stack Web Development Learner
         </h3>
+
+        <div class="hero-buttons">
+           <a href="#projects" class="btn-primary">View Projects</a>
+           <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
        
         <div class="badges">
             <span>🚀 Founder of Project Alpha</span>
@@ -34,8 +48,8 @@
             <span>🧩 Solved 50+ LeetCode Problems</span>
             <span>🎓 B.Tech Student</span>
         </div>
-        </section>
-    <section>
+    </section>
+    <section id="about">
         <h2>About Me</h2>
         <p>Hi, I'm Ansh Dhama, a B.Tech student passionate about software engineering, AI, and problem solving. I have solved 50+ LeetCode problems using Python and am currently learning full-stack web development through Project Alpha. My long-term goal is to build impactful software products and become financially independent before graduation.</p>
     </section>
@@ -76,10 +90,13 @@
                 <p>  A long-term learning project where I build real-world
                 software, improve development skills, and document my
                 journey publicly.</p>
-                <p><strong>Tech:</strong> HTML, CSS</p>
-
-                <button>Learn more</button>
-                
+                <p><strong>Tech:</strong> HTML, CSS, More</p>
+                <div class="project-buttons">
+                <a href="#" class="btn-primary">Learn More</a>
+                <a href="https://github.com/anshxit/Project-Alpha"class="btn-secondary"target="_blank">
+                    GitHub
+                </a>
+                </div>
             </div>
 
             <div class="project-card">
@@ -88,26 +105,26 @@
                 HTML and CSS to showcase my skills, projects, and career
                 journey.</p>
                 <p><strong>Tech:</strong> HTML, CSS</p>
-                <a href="#" target="_blank">
-               <button>Live Demo(Coming Soon)</button>
-               </a>
-                <a href="https://github.com/anshxit/Project-Alpha" target="_blank">
-                    <button>GitHub</button>
+                <div class="project-buttons">
+                <a href="#" class="btn-primary">
+                    Live Demo
                 </a>
+                <a href="https://github.com/anshxit/Project-Alpha"class="btn-secondary"target="_blank">
+                    GitHub
+                </a>
+                </div>
             </div>
         </div>
     </section>
     <section id="contact">
-       <section id="contact">
         <h2>Contact Me</h2>
         <p>Let's build something amazing together!</p>
 
         <div class="contact-links">
-          <a href="mailto:anshxit26@example.com">📧 Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anshxit26@gmail.com" target="_blank">📧 Email</a>
           <a href="https://github.com/anshxit" target="_blank">🐙 GitHub</a>
-          <a href="https://www.linkedin.com/in/ansh-dhama-97081a360?utm_source=share_via&utm_content=profile&utm_medium=member_ios">💼 LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ansh-dhama-97081a360?utm_source=share_via&utm_content=profile&utm_medium=member_ios" rel="noopener noreferrer" target="_blank">💼 LinkedIn</a>
         </div>
-    </section>
     </section>
     <footer>
         <p>&copy; 2026 Ansh Dhama. All rights reserved.</p>
