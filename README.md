@@ -47,3 +47,21 @@ https://github.com/anshxit/personal-protfolio
 - Working with Git remotes
 - Recovering and reconnecting repositories
 - Organizing projects with a professional Git workflow
+
+## 📅 Day 7 – React Foundations
+
+### ✅ What I Learned
+- Installed and configured Node.js
+- Created my first React project using Vite
+- Learned the React project structure
+- Understood JSX and components
+- Built reusable Navbar and Hero components
+- Learned how to import and export React components
+
+### 🚀 Project Completed
+- Project: React Learning
+- Repository: https://github.com/anshxit/project-alpha-react-learning
+
+### 🎯 Next Goal
+- Learn Props
+- Build reusable React components
