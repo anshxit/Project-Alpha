@@ -65,3 +65,23 @@ https://github.com/anshxit/personal-protfolio
 ### 🎯 Next Goal
 - Learn Props
 - Build reusable React components
+
+## Project Alpha Progress
+
+### Day 8: React ToDo App - State Management
+
+Completed my first React application.
+
+Learned:
+- React useState hook
+- Controlled components
+- Managing array state
+- Rendering lists using map()
+- Deleting items using filter()
+- Event handling in React
+
+Project:
+React ToDo App
+
+Repository:
+https://github.com/anshxit/React-ToDo-App
