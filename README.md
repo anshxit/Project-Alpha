@@ -5,9 +5,10 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Version](https://img.shields.io/badge/Version-4.0-blue)
 ![Quarter](https://img.shields.io/badge/Quarter-Q1-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Progress](https://img.shields.io/badge/Progress-Day%2010-blue)
 
 > **Build Skills. Solve Problems. Create Value. Earn Trust.**
+> "Small improvements, executed consistently, compound into extraordinary results."
 
 ### Building a Profitable AI & Web Solutions Company While Completing B.Tech.
 
